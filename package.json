@@ -1,0 +1,21 @@
+{
+  "name": "final-karo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Take group decisions within 60 seconds",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "^2.0.0",
+    "@stencil/router": "^1.0.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "peerjs": "^1.3.1"
+  }
+}
